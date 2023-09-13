@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/be549adbba.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div class="todoConteiner">
+        <header>
+            <h1>Lista de tarefas</h1>
+        </header>
+
+        <form id="tudoForm">
+            <p>Adicione uma tarefa:</p>
+            <div class="formControl">
+                <input type="text" id="tudoImput" placeholder="O que você vai fazer?">
+                <button type="submit">
+                    <i class="fa-thin fa-plus"></i>
+                </button>
+            </div>
+        </form>
+
+        <form id="editForm" class="hide">
+            <p>Edite sua tarefa:</p>
+            <div class="forControl">
+                <input type="text" id="editInput">
+                <button type="submit">
+                    <i class="fa-solid fa-check-double"></i>
+                </button>
+            </div>
+            <button type="submit" id="cancelEditBTN">Cancel</button>
+        </form>
+
+        <div id="toolbar">
+
+            <div class="search">
+                <h4>Pesquisar:</h4>
+                <form>
+                    <input type="text" id="searchInput" placeholder="Buscar">
+                    <button id="eraseButtom">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="filter">
+                <h4>Filtrar:</h4>
+                <select id="filterSelect">
+                    <option value="all">Todos</option>
+                    <option value="done">Feitos</option>
+                    <option value="tudo">A fazer</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div id="tudoList">
+            <div class="todo">
+                <h3>Estou fazendo algo</h3>
+                <button class="finishTodo">
+                    <i class="fe-solid fa-check"></i>
+                </button>
+                <button class="editTodo">
+                    <i class="fe-solid fa-pen"></i>
+                </button>
+                <button class="removeTodo">
+                    <i class="fe-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="tudoList">
+            <div class="todo">
+                <h3>Estou fazendo coisas</h3>
+                <button class="finishTodo">
+                    <i class="fe-solid fa-check"></i>
+                </button>
+                <button class="editTodo">
+                    <i class="fe-solid fa-pen"></i>
+                </button>
+                <button class="removeTodo">
+                    <i class="fe-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
