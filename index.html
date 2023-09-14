@@ -20,7 +20,7 @@
         <form id="todoForm">
             <p>Adicione uma tarefa:</p>
             <div class="formControl">
-                <input type="text" id="tudoImput" placeholder="O que você vai fazer?">
+                <input type="text" id="todoInput" placeholder="O que você vai fazer?">
                 <button type="submit">
                     <i class="fa-thin fa-plus"></i>
                 </button>
@@ -35,7 +35,7 @@
                     <i class="fa-solid fa-check-double"></i>
                 </button>
             </div>
-            <button type="submit" id="cancelEditBTN">Cancel</button>
+            <button  id="cancelEditBTN">Cancel</button>
         </form>
 
         <div id="toolbar">
@@ -55,40 +55,14 @@
                 <select id="filterSelect">
                     <option value="all">Todos</option>
                     <option value="done">Feitos</option>
-                    <option value="tudo">A fazer</option>
+                    <option value="todo">A fazer</option>
                 </select>
             </div>
 
         </div>
 
-        <div id="tudoList">
-            <div class="todo">
-                <h3>Estou fazendo algo</h3>
-                <button class="finishTodo">
-                    <i class="fa-solid fa-check"></i>
-                </button>
-                <button class="editTodo">
-                    <i class="fa-solid fa-pen"></i>
-                </button>
-                <button class="removeTodo">
-                    <i class="fa-solid fa-xmark"></i>
-                </button>
-            </div>
-        </div>
-
-        <div id="tudoList">
-            <div class="todo done">
-                <h3>Estou fazendo coisas</h3>
-                <button class="finishTodo">
-                    <i class="fa-solid fa-check"></i>
-                </button>
-                <button class="editTodo">
-                    <i class="fa-solid fa-pen"></i>
-                </button>
-                <button class="removeTodo">
-                    <i class="fa-solid fa-xmark"></i>
-                </button>
-            </div>
+        <div id="todoList">
+           
         </div>
 
     </div>

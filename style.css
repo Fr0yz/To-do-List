@@ -46,7 +46,7 @@ input, select{
 }
 
 .hide{
-    /*display: none;*/
+    display: none;
 }
 
 /* todo header */
@@ -60,7 +60,7 @@ input, select{
 
 }
 
-.tudoConteiner{
+.tudoConteiner header{
     text-align: center;
     padding: 0 1rem 1rem;
     border-bottom: 1 solid #ccc;
