@@ -20,7 +20,7 @@ Como Usar
 Clone este repositório para o seu ambiente local.
 bash
 Copy code
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Fr0yz/To-do-List
 Abra o arquivo index.html em seu navegador.
 
 Comece a adicionar, marcar como concluídas e excluir tarefas!
